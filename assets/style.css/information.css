@@ -1,0 +1,41 @@
+.logo{
+    display: block;
+    margin: 0 auto;
+    max-width: 20%;
+}
+
+.information__title{
+    color: var(--title-color);
+    font-size: 1.8rem;
+    text-align: center;
+    padding-top: .8rem;
+}
+
+.information__list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: .8rem;
+
+    background-color: var(--title-color);
+    padding: .9rem;
+    margin: .4rem;
+}
+
+.list-link{
+    text-decoration: none;
+    font-weight: 500;
+    color: #000000;
+
+    border: 1px solid #000000;
+    border-radius: .2rem;
+    background-color: var(--primary-color);
+
+    padding: .3rem;
+}
+
+@media screen and (max-width: 400px) {
+    .list-link{
+        padding: .1rem;
+    }
+}

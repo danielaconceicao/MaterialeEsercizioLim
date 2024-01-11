@@ -1,0 +1,44 @@
+.container__content{
+    padding: 0 1.5rem;
+}
+
+.scooter__availability{
+    padding: 1rem 0;
+}
+
+.scooter__list{
+    list-style-type: square;
+
+    color: var(--primary-color);
+    color: var(--primary-color);
+    font-size: 1.4rem;
+    font-weight: 700;
+    padding-bottom: .3rem;
+}
+
+.scooter__address, .battery__status{
+    color: var(--primary-color);
+    font-weight: 400;
+}
+
+.battery{
+    border: 1px solid transparent;
+    border-radius: .2rem;
+    padding: .7rem;
+    margin-top: .3rem;
+}
+
+.batteryLevel1{
+    background-color: var(--first-color-battery);
+    width: 24%; 
+}
+
+.batteryLevel2{
+    background-color: var(--second-color-battery);
+    width: 45%;
+}
+
+.batteryLevel3{
+    background-color: var(--third-color-battery);
+    width: 10%;
+}

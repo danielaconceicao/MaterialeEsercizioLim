@@ -1,0 +1,26 @@
+@import url(information.css);
+@import url(content.css);
+@import url(container.css);
+
+*{
+    --primary-color: #ffffff;
+    --title-color: #00dd00;
+    --first-color-battery: #f5b453;
+    --second-color-battery: #1ec31e;
+    --third-color-battery: #be4141;
+}
+
+html, body{
+    height: 100%;
+    font-family: 'Roboto', sem serifa;
+    font-size: 1rem;
+}
+
+main{
+    position: relative;
+    height: 100%;
+    background: #ffffff url('../img/background.jpg') no-repeat top center;
+    background-size: cover;
+    max-width: 100%;
+}
+
